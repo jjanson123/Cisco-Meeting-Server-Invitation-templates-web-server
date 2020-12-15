@@ -22,3 +22,5 @@ This is especially helpful when you host multiple images for Call Customization 
 ![alt text](https://github.com/jjanson123/Cisco-Meeting-Server-Invitation-templates-web-server/blob/eb4c2fbee1cee134a7bea0b87a077e2e7af21169/IIS%20server%20web%20page.JPG "IIS Web Branding Websites Text 1")<br /><p />
 
 *4) On the IIS server you need to add the python application to the website by highlighting the website in IIS and right clicking then choose Add Application.<br /><p />
+
+*5) On the IIS, after adding the application, you need to add the MIME types and a Handler Map to the virutal path of the application.<br /><p />
