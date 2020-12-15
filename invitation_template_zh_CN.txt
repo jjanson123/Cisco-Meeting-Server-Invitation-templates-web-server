@@ -1,7 +1,7 @@
-Subject: {% if name %}You are invited to Jim's US Meeting: %name%{% else %} You are invited to join a meeting{% endif%}
+Subject: {% if name %}You are invited to Jim's China Meeting: %name%{% else %} You are invited to join a meeting{% endif%}
 
 #if name
-You're invited to my Empire Meeting Space for the US %name%
+You're invited to my Empire Meeting Space for China %name%
 #else
 You're invited to my Sweet Child of Mine Space
 #endif
