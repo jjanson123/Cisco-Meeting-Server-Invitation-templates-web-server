@@ -9,3 +9,7 @@ Prerequisite:<br />
 4)Microsoft Server 2016 IIS 10.0<br />
 5) Cisco Meeting Server 3.1.x 
 
+High View on Deploment of Invitation/Email Templates hosted on a webserverfiles<br />
+
+Deployment of Python3<br />
+<br />
