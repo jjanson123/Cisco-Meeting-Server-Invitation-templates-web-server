@@ -1,0 +1,23 @@
+from bottle import route, run, template, static_file, error, sys, request
+import os
+
+#My current working directory
+my_dir=os.getcwd()
+
+#route this API GET request
+@route('/Brand/invitation_template')
+def server_static():
+    language=request.query.get('language')
+    filepath='invitation_template_'+language+'.txt'
+    print(filepath)
+    print(my_dir)
+    my_root = os.path.join(my_dir, 'static')
+    return static_file(filepath, root=my_root)
+
+#This responds with an error 404 not found if the requests fails.  NOTE this is only seeen in IIS.  CMS will provide the default invitation
+#template in callbridge if no file is returned by IIS.
+@error(404)
+def error404(error):
+    return 'Nothing here, sorry'
+
+run(host='0.0.0.0', port=8080, debug=True) 
