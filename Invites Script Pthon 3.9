@@ -1,10 +1,9 @@
-from bottle import route, run, template, static_file, error, sys, request
 import os
 
 #My current working directory
 my_dir=os.getcwd()
 
-#route this API GET request
+#route this API GET request NOTE: Change the route in parenthasis to match your GET requests.
 @route('/Brand/invitation_template')
 def server_static():
     language=request.query.get('language')
