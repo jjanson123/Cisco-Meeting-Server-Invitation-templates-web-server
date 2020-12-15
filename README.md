@@ -11,5 +11,7 @@ This GitHub Example is how to host your invitation/email template files, from a 
 
 ## High View on Deploment of Invitation/Email Templates hosted on a webserver files<br />
 
-**Deployment of Python3**<br />
+**Deployment of Python3:**<br />
 <br />
+* 1) Install Python3 on the web server in our case it is IIS.  Configure Python3 with a virtual environment in which your moduels bottle and os will run and activate the venv for the project.<br />
+* 2) Copy the Invites Python Project into the venv or create your own project and use the Invites script in the GitHub.<br />
