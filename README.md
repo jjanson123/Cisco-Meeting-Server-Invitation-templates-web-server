@@ -1,4 +1,4 @@
-# Cisco-Meeting-Server-Invitation/Email Templates
+# Cisco Meeting Server-Invitation/Email Templates
 
 This GitHub Example is how to host your invitation/email template files, from a webserver, that Cisco Meeting Server will send to the web app for multiple languages.<br /> 
 
