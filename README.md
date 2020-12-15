@@ -21,6 +21,8 @@ This is especially helpful when you host multiple images for Call Customization 
 
 *4)Launch your Python IDE and run the invites.py program.  This will start the bottle web server which will start to listen for traffic on port 8080.<br /><p />*
 
+![alt text](https://github.com/jjanson123/Cisco-Meeting-Server-Invitation-templates-web-server/blob/main/6_bottle%20server.PNG)
+
 
 
 
