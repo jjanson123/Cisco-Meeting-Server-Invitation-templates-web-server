@@ -19,4 +19,8 @@ This is especially helpful when you host multiple images for Call Customization 
 
 *3) If you have not already created the web server web pages for the CMS Branding per the CMS Customization Guide 3.1 current release as of this GitHub [CMS Customization Guide 3.1](https://www.cisco.com/c/dam/en/us/td/docs/conferencing/ciscoMeetingServer/Customisation/Version-3-1/Cisco-Meeting-Server-3-1-Customization-Guidelines.pdf) do this now then come back to this project. The IIS 10 web server will be serving your Call Customization files and the web app for Branding.  **(NOTE AGAIN ALL OUR INVITATION TEMPLATES ARE IN THE STATIC FOLDER OF THE PROJECT)** <br /><p />*
 
+*4)Launch your Python IDE and run the invites.py program.  This will start the bottle web server which will start to listen for traffic on port 8080.<br /><p />
+
+
+
 
