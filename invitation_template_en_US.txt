@@ -1,0 +1,61 @@
+Subject: {% if name %}You are invited to Jim's US Meeting: %name%{% else %} You are invited to join a meeting{% endif%}
+
+#if name
+You're invited to my Empire Meeting Space %name%
+#else
+You're invited to my Sweet Child of Mine Space
+#endif
+
+#if length (web_bridge_addresses) > 0
+From a Browser Enter: %web_bridge_addresses.0.address%
+#endif
+
+#if numeric_id
+Then Join the Meeting by entering the id %numeric_id%
+#endif
+#if passcode
+	Your Passcode is: %passcode%
+#endif 		 
+
+OR
+
+#if uri
+From a Cisco TAC Compliant managed video system, Call using %uri%
+#endif
+
+For External Users Join the Meeting By The Following Methods:
+#for wba in web_bridge_addresses
+Meeting Name: %wba.label%
+Address: %wba.address%
+Hyperlink: %wba.hyperlink%
+#endfor
+
+
+
+#if numeric_id
+Connect in the directory and enter %numeric_id% when requested.
+#endif
+#if numeric_id
+From an external video system, Dial: 5555@liketac.com  and enter %numeric_id%
+#endif
+#if numeric_id
+     From a phone, call your preferred local number from the below list, and enter %numeric_id%
+#endif
+
+#if uri
+	Or call in:
+	Video system, Jabber or Lync: %uri%
+#endif
+
+#if numeric_id
+	Phone Access: Call the regional access number, then enter %numeric_id%
+	Australia                              (61) 555123123
+	Belgium                                (32) 55512345
+	Brazil                                 (55) 5551234567
+	Canada                                 (1) 5554041212
+
+#endif
+
+#if passcode
+	Passcode: %passcode%
+#endif
