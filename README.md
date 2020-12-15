@@ -14,7 +14,7 @@ This is especially helpful when you host multiple images for Call Customization 
 
 **Deployment of Python3:**<br />
 <br />
-*1) Install Python3 on the web server in our case it is IIS [Download Python3 Here](https://www.python.org/downloads/).  Configure Python3 with a virtual environment in which your modules bottle and os will run and activate the venv for the project [Documentation on Python virtual environments](https://docs.python.org/3/library/venv.html).<br /><p />
+*1) Install Python3 on the web server in our case it is IIS [Download Python3 Here](https://www.python.org/downloads/).  Configure Python3 with a virtual environment in which your modules bottle and os will run and activate the venv for the project [Documentation on Python virtual environments](https://docs.python.org/3/library/venv.html).<br /><p />*
 
 *2) Copy the Invites Python Project into the venv [My Invites Python Project files](https://github.com/jjanson123/Cisco-Meeting-Server-Invitation-templates-web-server/blob/main/Invites.zip) **(NOTE:  I hosted all my invitation templates in the static folder of the project)**. You can also, create your own project, from scratch, and use the Invites script: [Invites Script Pthon 3.9](https://github.com/jjanson123/Cisco-Meeting-Server-Invitation-templates-web-server/blob/main/Invites%20Script%20Pthon%203.9) in the GitHub.  If you use the script then please install bottle module.  Here is a url on how to use bottle [Bottle Documentation](https://bottlepy.org/docs/dev/).<br /><p />
 
