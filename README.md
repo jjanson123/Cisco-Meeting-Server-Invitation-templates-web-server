@@ -14,4 +14,4 @@ This GitHub Example is how to host your invitation/email template files, from a 
 **Deployment of Python3:**<br />
 <br />
 * 1) Install Python3 on the web server in our case it is IIS.  Configure Python3 with a virtual environment in which your modules bottle and os will run and activate the venv for the project.<br />
-* 2) Copy the Invites Python Project into the venv or create your own project and use the Invites script: https://github.com/jjanson123/Cisco-Meeting-Server-Invitation-templates-web-server/blob/main/Invites%20Script%20Pthon%203.9 in the GitHub.<br />
+* 2) Copy the Invites Python Project into the venv or create your own project and use the Invites script: [Invites Script Pthon 3.9]  https://github.com/jjanson123/Cisco-Meeting-Server-Invitation-templates-web-server/blob/main/Invites%20Script%20Pthon%203.9 in the GitHub.<br />
