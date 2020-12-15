@@ -1,6 +1,6 @@
 # Cisco-Meeting-Server
 
-This GitHub Example is how to host your invitation template files that Cisco Meeting Server will send to the web app for multiple languages.<br /> 
+This GitHub Example is how to host your invitation/email template files,from a webserver, that Cisco Meeting Server will send to the web app for multiple languages.<br /> 
 
 Prerequisite:<br />
 1)Pre-configured Python environment on the IIS server.<br />
