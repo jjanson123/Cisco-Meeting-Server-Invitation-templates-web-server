@@ -21,7 +21,7 @@ This is especially helpful when you host multiple images for Call Customization 
 
 *4) Launch your Python IDE and run the invites.py program.  This will start the bottle web server which will start to listen for traffic on port 8080.<br /><p />*
 
-###### Image 1-- Below image shows IDE on Left, running bottle web server, and on the right side a console showing http requests for language files with response codes.  We can see 404 not found for files not in the static folder where I am hosting invitation templates.  While we see 200 response codes for the invitation template files found in the static folder. **(NOTE THAT CMS WILL LOAD THE DEFAULT INVITATION TEMPLATE FROM CMS WHEN THERE IS NO RETURN FROM BOTTLE WEBSERVER.)** <b /><p />
+###### Image 1-- Below image shows IDE on Left, running bottle web server, and on the right side a console showing http requests for language files with response codes.  We can see 404 not found for files not in the static folder where I am hosting invitation templates.  While we see 200 response codes for the invitation template files found in the static folder. ### (NOTE THAT CMS WILL LOAD THE DEFAULT INVITATION TEMPLATE FROM CMS WHEN THERE IS NO RETURN FROM BOTTLE WEBSERVER.) <b /><p />
 
 ![alt text](https://github.com/jjanson123/Cisco-Meeting-Server-Invitation-templates-web-server/blob/main/6_bottle%20server.PNG)
 
