@@ -25,6 +25,18 @@ This is especially helpful when you host multiple images for Call Customization 
 
 ![alt text](https://github.com/jjanson123/Cisco-Meeting-Server-Invitation-templates-web-server/blob/main/6_bottle%20server.PNG)
 
+##Cisco Meeting Server API and How This Works<br /><p />
+*When the web app user chooses a language from the drop down then CMS sends the url, preconfigured in the CallBrandingProfile for invitation templates, and appends the ?language query then forwards that GET to the web server.  Once the python webframe work receives the GET url it performs a lookup for the language file in the current working directory, in this project, the static folder and returns the invitation template back to CMS so that the interpreter can output the correct information to web app.
 
+*######Sample of CallBridgeProfile url used in CMS for this project
+
+
+
+## Disclaimer<br /><p />
+This project is only meant as an example of how to parse CMS requests about invitation templates and it will most likely won’t fit your deployment needs in terms or security, scalability and performance.
+
+We don’t recommend its use in production systems and we don't provide support for it.
+
+The software is provided "as is", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose and noninfringement. In no event shall the authors or copyright holders be liable for any claim, damages or other liability, whether in an action of contract, tort or otherwise, arising from, out of or in connection with the software or the use or other dealings in the software.
 
 
