@@ -1,6 +1,6 @@
 # Cisco Meeting Server-Invitation/Email Templates
 
-This GitHub Example is how to host your invitation/email template files, from a simple python webserver, that Cisco Meeting Server will send API GET requests to the web server for multiple languages files.
+This GitHub Example is how to host your **invitation/email template files**, from a simple python webserver, that Cisco Meeting Server will send API GET requests to the web server for multiple languages files.
 This is especially helpful when you host multiple images for Call Customization / Web App backgrounds and with multiple tenants.<br /><p />
 ## New code to add to the invites.py project so you can host webapp branding to this server:  [webbapp code](https://github.com/jjanson123/Cisco-Meeting-Server-Invitation-templates-web-server/blob/main/ReadMe_webapp_branding.md)
 
