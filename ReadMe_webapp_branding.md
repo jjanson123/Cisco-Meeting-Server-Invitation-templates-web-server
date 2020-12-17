@@ -3,7 +3,7 @@ You can add this snipett of code to the invites.py project and add your brand.zi
 start hosting webapp branding from same bottle webserver.<br /><p />
 
 
-Markup :  `code()`
+`code()`
 #my webbridge3 webapp branding GET request for the archive.zip file API Sends http://<bottle webserver ip>:8080/Brand/webapp/rebels.zip<br />
 @route('/Brand/webapp/rebels.zip')<br />
 def webapp_static():<br />
