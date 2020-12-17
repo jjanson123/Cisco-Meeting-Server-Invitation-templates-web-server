@@ -26,9 +26,9 @@ This is especially helpful when you host multiple images for Call Customization 
 ![alt text](https://github.com/jjanson123/Cisco-Meeting-Server-Invitation-templates-web-server/blob/main/6_bottle%20server.PNG)
 
 ## Cisco Meeting Server API and How This Works<br /><p />
-*When the web app user chooses a language from the drop down then CMS sends the url, preconfigured in the CallBrandingProfile for invitation templates, and appends the ?language query then forwards that GET to the web server.  Once the python webframe work receives the GET url it performs a lookup for the language file in the current working directory, in this project, the static folder and returns the invitation template back to CMS so that the interpreter can output the correct information to web app.<br /><p />*
+When the web app user chooses a language from the drop down then CMS sends the url, preconfigured in the CallBrandingProfile for invitation templates, and appends the ?language query then forwards that GET to the web server.  Once the python webframe work receives the GET url it performs a lookup for the language file in the current working directory, in this project, the static folder and returns the invitation template back to CMS so that the interpreter can output the correct information to web app.<br /><p />
 
-###### *Sample of CallBridgeProfile url used in CMS for this project<br /><p />*
+###### Image 2-- Sample of CallBridgeProfile url used in CMS for this project<br /><p />
 
 
 
