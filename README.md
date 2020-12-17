@@ -30,6 +30,7 @@ When the web app user chooses a language from the drop down then CMS sends the u
 
 ###### Image 2-- Sample of CallBridgeProfile url used in CMS for this project<br /><p />
 
+![alt text](https://github.com/jjanson123/Cisco-Meeting-Server-Invitation-templates-web-server/commit/fc81590eab558fd2835ef6a9954c5b019e6a5376)
 
 
 ## Disclaimer<br /><p />
