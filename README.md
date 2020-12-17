@@ -19,9 +19,9 @@ This is especially helpful when you host multiple images for Call Customization 
 
 *3) If you have not already created the web server web pages for the CMS Branding per the CMS Customization Guide 3.1 current release as of this GitHub [CMS Customization Guide 3.1](https://www.cisco.com/c/dam/en/us/td/docs/conferencing/ciscoMeetingServer/Customisation/Version-3-1/Cisco-Meeting-Server-3-1-Customization-Guidelines.pdf) do this now then come back to this project. The IIS 10 web server will be serving your Call Customization files and the web app for Branding.  **(NOTE AGAIN ALL OUR INVITATION TEMPLATES ARE IN THE STATIC FOLDER OF THE PROJECT)** <br /><p />*
 
-*4)Launch your Python IDE and run the invites.py program.  This will start the bottle web server which will start to listen for traffic on port 8080.<br /><p />*
+*4) Launch your Python IDE and run the invites.py program.  This will start the bottle web server which will start to listen for traffic on port 8080.<br /><p />*
 
-###### Image 1-- Below image shows IDE on Left, running bottle web server, and on the right side a console showing http requests for language files with response codes.  We can see 404 not found for files not in the static folder where I am hosting invitation templates.  While we see 200 response codes for the invitation template files found in the static folder.<b /><p />
+###### Image 1-- Below image shows IDE on Left, running bottle web server, and on the right side a console showing http requests for language files with response codes.  We can see 404 not found for files not in the static folder where I am hosting invitation templates.  While we see 200 response codes for the invitation template files found in the static folder.  NOTE THAT CMS WILL LOAD THE DEFAULT INVITATION TEMPLATE FROM CMS WHEN THERE IS NO RETURN FROM BOTTLE WEBSERVER.<b /><p />
 
 ![alt text](https://github.com/jjanson123/Cisco-Meeting-Server-Invitation-templates-web-server/blob/main/6_bottle%20server.PNG)
 
