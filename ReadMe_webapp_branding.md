@@ -4,7 +4,7 @@ start hosting webapp branding from same bottle webserver.<br /><p />
 
 
 `code()`
-...python
+'''python
 #my webbridge3 webapp branding GET request for the archive.zip file API Sends http://<bottle webserver ip>:8080/Brand/webapp/rebels.zip<br />
 @route('/Brand/webapp/rebels.zip')<br />
 def webapp_static():<br />
@@ -14,4 +14,4 @@ def webapp_static():<br />
     #print(my_dir)<br />
     my_root = os.path.join(my_dir, 'static')<br />
     return static_file(filepath, root=my_root)<br />
-...
+'''
