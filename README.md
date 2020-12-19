@@ -4,6 +4,8 @@ This GitHub Example is how to host your **invitation/email template files**, fro
 This is especially helpful when you host multiple images for Call Customization & Web App backgrounds and with multiple tenants.<br /><p />
 ## *New code to add to the invites.py project so you can host webapp branding to this server:  [webbapp code](https://github.com/jjanson123/Cisco-Meeting-Server-Invitation-templates-web-server/blob/main/ReadMe_webapp_branding.md)*
 
+## *New code to add to the invites.py project so you can host call customization branding to this server:  [call customization code](https://github.com/jjanson123/Cisco-Meeting-Server-Invitation-templates-web-server/blob/main/README_CallCustomization.md)*
+
 ## Prerequisite:<br />
 1) Pre-configured Python environment on Microsoft Server 2016.<br />
 2) Knowledge of Python Scripting.<br />
