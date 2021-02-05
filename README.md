@@ -11,7 +11,7 @@ This is especially helpful when you host multiple images for Call Customization 
 ## Prerequisite:<br />
 1) Pre-configured Python environment on Microsoft Server 2016.<br />
 2) Knowledge of Python Scripting.<br />
-3) The following modules in your Python Project:  bottle and os.<br />
+3) The following modules in your Python Project:  bottle.py, os.py and paste.py.<br />
 4) Cisco Meeting Server 3.1.x 
 
 ### High View on Deploment of Invitation/Email Templates hosted on a webserver files<br />
